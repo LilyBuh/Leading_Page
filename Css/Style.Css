@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=Marko+One&display=swap');
+
+/* font-family: 'M PLUS 1', sans-serif; */
+/* font-family: 'Marko One', serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+
+body {
+    background-image: url(../IMG/FotoT.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Marko One', serif;
+}
+
+header {
+    font-family: 'M PLUS 1', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+header nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header nav a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 2px;
+    padding: 10px;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .6s;
+}
+
+.line {
+    position: absolute;
+    top: 0.1px;
+    left: calc(100% - 121.5px);
+    width: 1.9px;
+    height: 25px;
+    background: white;
+}
+
+.logo {
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 120px;
+
+}
+
+.box-about {
+    text-align: center;
+}
+
+.box-about h1 {
+    color: white;
+}
+
+.box-about span {
+    color: black;
+}
+
+.box-about p {
+    color: white;
+    text-shadow: 0 0 1px black;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.box-about a {
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.box-about a:hover {
+    transition: 0.6s;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.perfil {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    background-image: url(../IMG/aaavv.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.more {
+    background-color: #1E3E54;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 4px black;
+}
+
+.box-more {
+    background-color: #3A7195;
+    width: 500px;
+    margin: 20px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
+.box-more h1 {
+    background-color: #2A89AA;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.box-more p{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    line-height: 1.45;
+    text-shadow: 0 0 1.5px black;
+}
+
+footer{
+    background-color:#042235 ;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+footer figure{
+    margin-top: 20px;
+}
+footer figure img{
+    margin-left: 30px;
+}
+
+footer p{
+    margin-top: 20px;
+}
