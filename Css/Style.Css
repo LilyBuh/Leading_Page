@@ -125,23 +125,26 @@ header nav a:hover {
 }
 
 .more {
-    background-color: #1E3E54;
+    background: linear-gradient(to bottom, #5EA7C1, black);
     width: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.24);
+}
+
+.box-more img {
+    display: none;
 }
 
 .box-more {
-    background-color: #3A7195;
+    background-color: #3a71955b;
     width: 500px;
     margin: 20px;
     border: 1px solid black;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -152,7 +155,7 @@ header nav a:hover {
 }
 
 
-.box-more p{
+.box-more p {
     padding: 15px;
     color: white;
     text-align: center;
@@ -160,8 +163,8 @@ header nav a:hover {
     text-shadow: 0 0 1.5px black;
 }
 
-footer{
-    background-color:#042235 ;
+footer {
+    background-color: #042235;
     color: white;
     font-size: 12px;
     text-align: center;
@@ -170,13 +173,14 @@ footer{
     height: 200px;
 }
 
-footer figure{
+footer figure {
     margin-top: 20px;
 }
-footer figure img{
+
+footer figure img {
     margin-left: 30px;
 }
 
-footer p{
+footer p {
     margin-top: 20px;
 }

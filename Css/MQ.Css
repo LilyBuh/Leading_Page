@@ -79,25 +79,34 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: nowrap;
-        box-shadow: 0 0 8px black;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.507);
+        position: relative;
+    }
+    .more img{
+        display: block;
+        position: absolute;
+        transform: translate(6px,-100px);
+        margin-left: 10%;
     }
     
-    .box-more h1:hover {
-        transition: .3s;
-        color: white;
-        text-shadow: -3px 2px 5px black;
-    } 
+
+    .box-more h1{
+        display: none;
+    }
+
+    .box-more{
+        background-color: rgba(255, 255, 255, 0);
+        text-align: center;
+        height: 300px;
+    }
 
     .box-more p{
-        font-size: 18px;
-        text-align:justify;
+        font-size: 17px;
+        text-align:center;
         letter-spacing: -2px;
         line-height: 1.64;
     }
-    .box-more{
-        height: 360px;
-    }
-
+    
     
     header nav a {
         margin: 10px;
@@ -109,5 +118,4 @@
     }
 } 
     
-
 
